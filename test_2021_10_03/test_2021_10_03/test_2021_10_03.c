@@ -16,10 +16,24 @@
 //
 //}
 
-extern int GOD;
+//extern int GOD;
+//
+//int main() {
+//	printf("%d\n", GOD);
+//
+//	return 0;
+//}
+
+//常量
 
 int main() {
-	printf("%d\n", GOD);
+	//1.字面常量
+	//3.14;
+	//10;
+	//"a";
+	//"abc";
 
-	return 0;
+	//2. const修飾的常量
+	int num = 10;//變量
+	num = 20;
 }
