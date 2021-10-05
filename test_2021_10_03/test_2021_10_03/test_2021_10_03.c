@@ -34,6 +34,14 @@ int main() {
 	//"abc";
 
 	//2. const修飾的常量
-	int num = 10;//變量
-	num = 20;
+	//const int num = 10;//變量就是常變量 - 具有常屬性(不能改變的屬性)
+	//num = 20;
+	//printf("num = %d\n", num);//20
+
+	int arr[10] = { 0 };//10個元素
+
+	int n = 10;
+	int arr2[n] = { 0 };//n是變量的, 這裡不行
+
+	return 0;
 }
