@@ -25,7 +25,7 @@
 //}
 
 //常量
-
+#define MAX 10000
 int main() {
 	//1.字面常量
 	//3.14;
@@ -38,10 +38,15 @@ int main() {
 	//num = 20;
 	//printf("num = %d\n", num);//20
 
-	int arr[10] = { 0 };//10個元素
+	//int arr[10] = { 0 };//10個元素
 
-	int n = 10;
-	int arr2[n] = { 0 };//n是變量的, 這裡不行
+	//const int n = 10;
+	//int arr2[n] = { 0 };//n是變量的, 這裡不行
 
+
+	//3. #define 定義的標示符常量
+	//MAX =20000;//err
+	int n = MAX;
+	printf("n = %d\n", n);
 	return 0;
 }
